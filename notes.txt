@@ -1,10 +1,54 @@
 
+MYSQL => MY Structured Query Language
 
-MYSQL =>  My Structured Query Language
+=================School Mangement System===================
+
+1. students (Data Table) (id, name, roll, class, phone, email, address) 1 2 3 "2" "two"
+2. teachers (Data Table) (id, name, designation, phone, email, address)
+3. staffs (Data Table) (id, )
 
 
-========================School Management System========================
+===================CRUD=================
 
-1. students => (Id, Name, Class, Roll, Phone Number, Email, Address)
-2. teachers => (Id, Name, Subject, Phone Number, Status, Address)
-3. staff => (Id, Name, Occopation, Phone Number, Address) 
+1. C = CREATE
+2. R = READ
+3. U = UPDATE
+4. D = DELETE
+
+=====================SQL===============
+
+CREATE=>
+
+INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Akahs', 6, 'Ten', '01677777777', 'akash@gmail.com', 'Uttara,Dhaka');
+
+READ=>
+SELECT * FROM students;
+SELECT id,name FROM students;
+SELECT * FROM students WHERE id=4;
+SELECT * FROM students WHERE class='Ten';
+
+LIKE
+
+UPDATE=>
+
+UPDATE students SET roll=12 WHERE id = 4;
+
+UPDATE students SET name = "Md. Rabbi", roll = 10, class = "Five", phone = "01876636373", email="abcd@gmail.com", address = "Mirpur Dhaka" WHERE class = "Ten";
+
+DELETE=>
+
+DELETE FROM students WHERE id = 2;
+DELETE FROM students WHERE class = "Five";
+
+
+
+
+============portfolio=========
+1. services (id, service_name, image) 1 "web development" "aofj.jpg"
+2. skills (id, skill_name, percentage)
+3. projects (id, project_name, description, image)
+
+
+
+
+VARCHAR, TEXT
