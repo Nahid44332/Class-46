@@ -1,0 +1,10 @@
+
+
+MYSQL =>  My Structured Query Language
+
+
+========================School Management System========================
+
+1. students => (Id, Name, Class, Roll, Phone Number, Email, Address)
+2. teachers => (Id, Name, Subject, Phone Number, Status, Address)
+3. staff => (Id, Name, Occopation, Phone Number, Address) 
